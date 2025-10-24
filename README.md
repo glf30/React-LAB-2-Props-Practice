@@ -6,7 +6,7 @@ Build a simple restaurant-style menu that displays a list of items.
 Each item should have a **name**, **price**, and a button to “Add to Order.”
 
 ### Requirements
-- Create a `Menu` component that holds an array of food items (name + price).
+- Create a `Menu` component that holds an array of food items (name + price + id).
 - Pass the individual item as props to a `MenuItem` component.
 - Each `MenuItem` should display:
   - The food name
@@ -24,6 +24,7 @@ Create a simple music playlist app that displays songs and allows the user to �
 - Each song should have at least:
   - A title
   - An artist
+  - An ID
 - Use .map() to render a Song component for each song.
 - Each Song should display the information as well as a play button
 
