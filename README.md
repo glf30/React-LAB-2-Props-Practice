@@ -6,7 +6,8 @@ Build a simple restaurant-style menu that displays a list of items.
 Each item should have a **name**, **price**, and a button to “Add to Order.”
 
 ### Requirements
-- Create a `Menu` component that holds an array of food items (name + price + id).
+- In your App.jsx create an array of food items (name + price + id).
+- Create a `Menu` component to display each Food Item.
 - Pass the individual item as props to a `MenuItem` component.
 - Each `MenuItem` should display:
   - The food name
