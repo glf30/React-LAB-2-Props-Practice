@@ -3,7 +3,7 @@
 ## Project 1: Menu App
 
 Build a simple restaurant-style menu that displays a list of items.  
-Each item should have a **name**, **price**, an **availble** boolean and a button to “Add to Order.”
+Each item should have a **name**, **price**, an **availble** boolean, a **sale** boplean, and a button to “Add to Order.”
 
 ### Requirements
 - In your App.jsx create an array of at least 5 food items (name + price + id + available (boolean)).
@@ -14,6 +14,7 @@ Each item should have a **name**, **price**, an **availble** boolean and a butto
   - The price
   - A button (like “Add to Order”)
   - A way to indicate to the user whether the item is available or not
+  - A way to indicate to the user whether the item is on sale.
 - When the button is clicked, call a function passed down from the parent (e.g. `handleAdd(itemName)`).
 - The parent function should `console.log` or `alert` something like:  
   `"Added [itemName] to order!"
@@ -27,6 +28,8 @@ Create a simple music playlist app that displays songs and allows the user to �
   - A title
   - An artist
   - An ID
+  - A property **favorite** that indicates whether the song has been favorited
+  - **appearsOn** an array of strings displaying which playlist names the song appears on.
 - Render a Song component for each song.
 - Each Song should display the information as well as a play button
 
