@@ -27,7 +27,7 @@ Create a simple music playlist app that displays songs and allows the user to â€
   - A title
   - An artist
   - An ID
-- Use .map() to render a Song component for each song.
+- Render a Song component for each song.
 - Each Song should display the information as well as a play button
 
 When the button is clicked, call a parent function passed as a prop (e.g. handlePlay(title)) that logs:
