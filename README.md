@@ -6,7 +6,7 @@ Build a simple restaurant-style menu that displays a list of items.
 Each item should have a **name**, **price**, an **availble** boolean and a button to “Add to Order.”
 
 ### Requirements
-- In your App.jsx create an array of food items (name + price + id + available (boolean)).
+- In your App.jsx create an array of at least 5 food items (name + price + id + available (boolean)).
 - Create a `Menu` component to display each Food Item.
 - Pass the individual item as props to a `MenuItem` component.
 - Each `MenuItem` should display:
@@ -22,7 +22,7 @@ Each item should have a **name**, **price**, an **availble** boolean and a butto
 Create a simple music playlist app that displays songs and allows the user to “play” them (just a console message or alert is fine).
 
 ### Requirements
-- Create a SongList component that holds an array of songs.
+- Create a SongList component that holds an array of 10 songs.
 - Each song should have at least:
   - A title
   - An artist
