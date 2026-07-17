@@ -6,7 +6,7 @@ Build a simple restaurant-style menu that displays a list of items.
 Each item should have a **name**, **price**, an **available** boolean, a **sale** boolean, and a button to “Add to Order.”
 
 ### Requirements
-- In your App.jsx create an array of at least 5 food items (name + price + id + available (boolean)).
+- In your App.jsx create an array of at least 5 food items (name + price + id + available (boolean) + sale (boolean)).
 - Create a `Menu` component to display each Food Item.
 - Pass the individual item as props to a `MenuItem` component.
 - Each `MenuItem` should display:
