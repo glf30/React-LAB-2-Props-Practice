@@ -15,7 +15,7 @@ Each item should have a **name**, **price**, an **available** boolean, a **sale*
   - A button (like “Add to Order”)
   - A way to indicate to the user whether the item is available or not
   - A way to indicate to the user whether the item is on sale.
-- When the button is clicked, call a function passed down from the parent (e.g. `handleAdd(itemName)`).
+- When the button is clicked, call a function passed down from the parent (e.g. `handleAddToOrder(itemName)`).
 - The parent function should `console.log` or `alert` something like:  
   `"Added [itemName] to order!"
 
